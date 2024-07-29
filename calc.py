@@ -3,33 +3,58 @@ a = float(input("podaj liczbe a\n")) #definiowanie liczby a
 b = float(input("podaj liczbe b\n")) #definiowanie liczby b
 
 #dodawanie liczb całkowitych
-dodawaniecal = int(a + b) #operacja arytmetyczna na liczbach całkowitych
-print(dodawaniecal)
+def dodawanie(a, b):
+    wynikdodawania = a + b
+    return wynikdodawania
 
-#dodawanie liczb rzeczywistych
-dodawaniezmien = float(a+b)
-print(dodawaniezmien)
+#dodawaniecal = int(a + b) #operacja arytmetyczna na liczbach całkowitych
+#print(dodawaniecal)
+#
+##dodawanie liczb rzeczywistych
+#dodawaniezmien = float(a+b)
+#print(dodawaniezmien)
 
-#odejmowanie liczb całkowitch
-odejmowaniecal = int(a - b)
-print(odejmowaniecal)
+def odejmowanie(a, b):
+    wynikodejmowania = a - b
+    return wynikodejmowania
+##odejmowanie liczb całkowitch
+#odejmowaniecal = int(a - b)
+#print(odejmowaniecal)
+#
+##odejmowanie liczb rzeczywistch 
+#odejmowanierzeczywistych = float(a - b)
+#print(odejmowanierzeczywistych)
 
-#odejmowanie liczb rzeczywistch 
-odejmowanierzeczywistych = float(a - b)
-print(odejmowanierzeczywistych)
+def mnozenie(a, b):
+    wynikmnozenia = a * b
+    return wynikmnozenia
+##mnozenie liczb naturalnych
+#mnozenienat = int(a * b)
+#print(mnozenienat)
+#
+##mnozenie liczb rzeczywistych 
+#mnozenierzeczywistych = float(a * b)
+#print(mnozenierzeczywistych)
 
-#mnozenie liczb naturalnych
-mnozenienat = int(a * b)
-print(mnozenienat)
+def dzielenie(a, b):
+    wynikdzielenia = a / b
+    return wynikdzielenia
+##dzielenie naturlanych
+#dzielenienat = int(a / b)
+#print(dzielenienat)
+#
+##dzielenie rzeczywistch
+#dzielenierzeczywistych = float(a / b)
+#print(dzielenierzeczywistych)
 
-#mnozenie liczb rzeczywistych 
-mnozenierzeczywistych = float(a * b)
-print(mnozenierzeczywistych)
+wynikdodawania = dodawanie(a, b)
+print(wynikdodawania)
 
-#dzielenie naturlanych
-dzielenienat = int(a / b)
-print(dzielenienat)
+wynikodejmowania = odejmowanie(a, b)
+print(wynikodejmowania)
 
-#dzielenie rzeczywistch
-dzielenierzeczywistych = float(a / b)
-print(dzielenierzeczywistych)
+wynikmnozenia = mnozenie(a, b)
+print(wynikmnozenia)
+
+wynikdzielenia = dzielenie(a, b)
+print(wynikdzielenia)
