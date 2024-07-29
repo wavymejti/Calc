@@ -7,45 +7,23 @@ def dodawanie(a, b):
     wynikdodawania = a + b
     return wynikdodawania
 
-#dodawaniecal = int(a + b) #operacja arytmetyczna na liczbach całkowitych
-#print(dodawaniecal)
-#
-##dodawanie liczb rzeczywistych
-#dodawaniezmien = float(a+b)
-#print(dodawaniezmien)
+
 
 def odejmowanie(a, b):
     wynikodejmowania = a - b
     return wynikodejmowania
-##odejmowanie liczb całkowitch
-#odejmowaniecal = int(a - b)
-#print(odejmowaniecal)
-#
-##odejmowanie liczb rzeczywistch 
-#odejmowanierzeczywistych = float(a - b)
-#print(odejmowanierzeczywistych)
 
 def mnozenie(a, b):
     wynikmnozenia = a * b
     return wynikmnozenia
-##mnozenie liczb naturalnych
-#mnozenienat = int(a * b)
-#print(mnozenienat)
-#
-##mnozenie liczb rzeczywistych 
-#mnozenierzeczywistych = float(a * b)
-#print(mnozenierzeczywistych)
 
 def dzielenie(a, b):
-    wynikdzielenia = a / b
-    return wynikdzielenia
-##dzielenie naturlanych
-#dzielenienat = int(a / b)
-#print(dzielenienat)
-#
-##dzielenie rzeczywistch
-#dzielenierzeczywistych = float(a / b)
-#print(dzielenierzeczywistych)
+
+    if b != 0:
+        wynikdzielenia = a / b
+        return wynikdzielenia
+    elif b == 0:
+        return "nie dziel przez 0"
 
 wynikdodawania = dodawanie(a, b)
 print(wynikdodawania)
