@@ -1,0 +1,2 @@
+# Calc
+ Basic python excersice 
