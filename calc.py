@@ -18,4 +18,18 @@ print(odejmowaniecal)
 odejmowanierzeczywistych = float(a - b)
 print(odejmowanierzeczywistych)
 
+#mnozenie liczb naturalnych
+mnozenienat = int(a * b)
+print(mnozenienat)
 
+#mnozenie liczb rzeczywistych 
+mnozenierzeczywistych = float(a * b)
+print(mnozenierzeczywistych)
+
+#dzielenie naturlanych
+dzielenienat = int(a / b)
+print(dzielenienat)
+
+#dzielenie rzeczywistch
+dzielenierzeczywistych = float(a / b)
+print(dzielenierzeczywistych)
