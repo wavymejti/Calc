@@ -16,7 +16,6 @@ def mnozenie(a, b):
     return wynikmnozenia
 
 def dzielenie(a, b):
-
     if b != 0:
         wynikdzielenia = a / b
         return wynikdzielenia
@@ -24,13 +23,17 @@ def dzielenie(a, b):
         return "nie dziel przez 0"
 
 wynikdodawania = dodawanie(a, b)
+print("wynik dodawania:")
 print(wynikdodawania)
 
 wynikodejmowania = odejmowanie(a, b)
+print("wynik odejmowania:")
 print(wynikodejmowania)
 
 wynikmnozenia = mnozenie(a, b)
+print("wynik mnozenia:")
 print(wynikmnozenia)
 
 wynikdzielenia = dzielenie(a, b)
+print("wynik dzielenia:")
 print(wynikdzielenia)
