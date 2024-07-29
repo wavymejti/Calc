@@ -7,8 +7,6 @@ def dodawanie(a, b):
     wynikdodawania = a + b
     return wynikdodawania
 
-
-
 def odejmowanie(a, b):
     wynikodejmowania = a - b
     return wynikodejmowania
