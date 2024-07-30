@@ -19,12 +19,12 @@ def odejmowanie(x, y):
     result = x - y
     return result
 
-if operator == "+":
-    print(dodawanie(x, y))
-elif operator == "-":
-    print(odejmowanie(x, y))
-else:
-    print("nieznany operator")
+#if operator == "+":
+#    print(dodawanie(x, y))
+#elif operator == "-":
+#    print(odejmowanie(x, y))
+#else:
+#    print("nieznany operator")
 
 
 result = dodawanie(x, y)
