@@ -12,12 +12,12 @@ y = int(spliter[2])
 operator = spliter[1]
 
 def dodawanie(x, y):
-    wynikdodawania = x + y
-    return wynikdodawania
+    result = x + y
+    return result
 
 def odejmowanie(x, y):
-    wynikodejmowania = x - y
-    return wynikodejmowania
+    result = x - y
+    return result
 
 if operator == "+":
     print(dodawanie(x, y))
@@ -25,3 +25,14 @@ elif operator == "-":
     print(odejmowanie(x, y))
 else:
     print("nieznany operator")
+
+
+result = dodawanie(x, y)
+result = odejmowanie(x, y)
+
+
+#chech if the result is even or not
+if result % 2 == 0:
+        print("liczba jest parzysta")
+else:
+        print("liczba nie jest parzysta")
