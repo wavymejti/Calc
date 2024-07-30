@@ -36,3 +36,10 @@ if result % 2 == 0:
         print("liczba jest parzysta")
 else:
         print("liczba nie jest parzysta")
+
+
+lista = ["juan", "JanPawel", "banan", "szymonmarszalek", "michalzmyslony"]
+for x in lista:
+      print(x)
+      if x == "banan":
+            break
